@@ -93,6 +93,15 @@ const PROVIDERS = new Map<string, Provider>(
         'your Ethereum wallet': 'your wallet',
       },
     },
+    {
+      id: 'cdc',
+      name: 'Crypto.com DeFi Wallet',
+      type: 'Any',
+      image: `${BASE_URL}/wallet.png`,
+      strings: {
+        'your Ethereum wallet': 'Crypto.com DeFi Wallet',
+      },
+    },
   ].map((provider) => [provider.id, provider])
 )
 

@@ -71,6 +71,12 @@ const GLMR: Currency = {
   decimals: 18,
 }
 
+const CRO: Currency = {
+  name: 'Cronos',
+  symbol: 'CRO',
+  decimals: 18,
+}
+
 const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
   [
     1,
@@ -404,6 +410,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Moonbeam',
       shortName: 'Moonbeam',
       explorerUrl: 'https://moonbeam.moonscan.io/',
+      testnet: false,
+    },
+  ],
+  [
+    25,
+    {
+      id: 25,
+      nativeCurrency: CRO,
+      type: 'cronos',
+      fullName: 'Cronos Mainnet',
+      shortName: 'Cronos',
+      explorerUrl: `https://cronoscan.com/`,
       testnet: false,
     },
   ],

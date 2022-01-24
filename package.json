@@ -30,6 +30,7 @@
     "@web3-react/torus-connector": "6.1.7",
     "@web3-react/walletconnect-connector": "6.2.4",
     "@web3-react/walletlink-connector": "6.2.5",
+    "deficonnect": "^1.1.7",
     "jsbi": "^3.1.4",
     "prop-types": "^15.7.2",
     "regenerator-runtime": "^0.13.7",
